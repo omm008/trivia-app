@@ -1,4 +1,3 @@
-cat > amplify.yml <<'YAML'
 version: 1
 applications:
   - frontend:
@@ -16,4 +15,3 @@ applications:
       cache:
         paths:
           - node_modules/**/*
-YAML
